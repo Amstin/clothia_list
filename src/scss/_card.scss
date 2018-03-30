@@ -1,0 +1,74 @@
+.card {
+  box-shadow: 0 5px 25px 0 rgba(0,0,0,.2);
+  margin: 20px 30px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+
+  &__image {
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    float: left;
+    margin: 5px;
+
+    &:hover {
+      span {
+        display: block;
+      }
+    }
+
+    span {
+      display: none;
+      cursor: pointer;
+      background: url(./img/add_to_cart.png) no-repeat center;
+      background-size: cover;
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  &__description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    span, a, h2 {
+      text-align: center;
+    }
+  }
+
+  &__price {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+  }
+
+  &__new-price {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__old-price {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: line-through;
+  }
+
+  &__brand-name {
+    text-decoration: none;
+    transition: .2s;
+    color: #519dc7;
+    margin-top: 10px;
+
+    &:hover {
+      color: lighten(#519dc7, 20%);
+    }
+  }
+}

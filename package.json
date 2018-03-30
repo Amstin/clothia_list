@@ -1,0 +1,39 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "gulp-cli": "^2.0.1",
+    "gulp-jquery": "^1.1.2",
+    "gulp-yarn": "^1.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-less": "^4.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "jquery": "^3.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amstin/clothia_test.git"
+  },
+  "author": "Amstin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amstin/clothia_test/issues"
+  },
+  "homepage": "https://github.com/Amstin/clothia_test#readme"
+}

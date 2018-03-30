@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="application.css">
+  </head>
+  <body id="body">
+
+    <section class="header">
+      <ul class="nav">
+        <li>Link 1</li>
+        <li>Link 2</li>
+        <li>Link 3</li>
+        <li class="nav__cart">
+          <a href="#">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 width="35px" height="35px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+            <g>
+            <polygon points="90.477,48 0.008,48 0.008,80 69.539,80 181.539,336 447.992,336 447.992,304 202.477,304 	"/>
+            <path d="M160.008,112l64,160h223.984l64-160H160.008z M426.367,240H245.68l-38.406-96h257.469L426.367,240z"/>
+            <path d="M240.008,368c-26.516,0-48,21.5-48,48s21.484,48,48,48c26.5,0,47.984-21.5,47.984-48S266.508,368,240.008,368z
+                  M240.008,432c-8.828,0-16-7.188-16-16s7.172-16,16-16s16,7.188,16,16S248.836,432,240.008,432z"/>
+            <path d="M399.992,368c-26.5,0-48,21.5-48,48s21.5,48,48,48s48-21.5,48-48S426.492,368,399.992,368z M399.992,432
+                  c-8.813,0-16-7.188-16-16s7.188-16,16-16s16,7.188,16,16S408.805,432,399.992,432z"/>
+            </g>
+            </svg>
+            <span class="product-count popup-link-1" style="display:none">
+              <i></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+
+    </section>
+
+    <section class="content">
+
+      <div class="container">
+
+        <h1>Product list</h1>
+
+        <div class="product-list">
+        </div>
+      </div>
+
+    </section>
+
+    <section class="footer">
+
+    </section>
+
+    <div class="shopping-cart popup-box" id="popup-box">
+      <div class="close">X</div>
+
+      <div class="shopping-cart__title">
+        Shopping Cart
+      </div>
+
+      <div class="basket-products">
+      </div>
+    </div>
+
+    <div id="blackout"></div>
+
+    <div class="card-template" style="display: none">
+      <div class="card">
+        <div class="card__image">
+          <span class="the-buttons"></span>
+        </div>
+        <div class="card__description">
+          <h2>Blue jacket</h2>
+
+          <div class="card__price">
+            <span class="card__new-price">$343</span>
+            <span class="card__old-price">$434</span>
+          </div>
+
+          <a href="#" class="card__brand-name">BlueCloth</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="basket-template" style="display: none">
+      <div class="shopping-cart__item">
+        <div class="shopping-cart__buttons">
+          <span class="shopping-cart__delete-btn"></span>
+        </div>
+
+        <div class="shopping-cart__image">
+          <img class="shopping-cart__item__image" />
+        </div>
+
+        <div class="shopping-cart__description">
+          <span>Common Projects</span>
+        </div>
+
+        <div class="shopping-cart__quantity">
+          <button class="shopping-cart__plus-btn" type="button" name="button">
+            <img src="img/plus.svg" alt="">
+          </button>
+          <input type="text" name="qty" value="1">
+          <button class="shopping-cart__minus-btn" type="button" name="button">
+            <img src="img/minus.svg" alt="">
+          </button>
+        </div>
+        <div class="shopping-cart__total-price">$343</div>
+      </div>
+    </div>
+
+    <script src="vendor/jquery.custom.js"></script>
+    <script src="application.min.js"></script>
+  </body>
+</html>
