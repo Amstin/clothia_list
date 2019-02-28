@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Avenir-Light";
+    src: url("../fonts/AvenirNextCyr-Light.eot");
+    src: 
+    url("../fonts/AvenirNextCyr-Light.woff") format("woff"),
+    url("../fonts/AvenirNextCyr-Light.woff2") format("woff2"),
+    url("../fonts/AvenirNextCyr-Light.otf") format("opentype"),
+    url("../fonts/AvenirNextCyr-Light.svg#filename") format("svg");
+}
+
+@font-face {
+    font-family: "Avenir-Medium";
+    src: url("../fonts/AvenirNextCyr-Medium.eot");
+    src: 
+    url("../fonts/AvenirNextCyr-Medium.woff") format("woff"),
+    url("../fonts/AvenirNextCyr-Medium.woff2") format("woff2"),
+    url("../fonts/AvenirNextCyr-Medium.otf") format("opentype"),
+    url("../fonts/AvenirNextCyr-Medium.svg#filename") format("svg");
+}

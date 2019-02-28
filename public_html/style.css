@@ -1,0 +1,132 @@
+body {
+	background-color: #EAEAEA;
+	margin: 0;
+}
+
+body.white-body-bg {
+    background-color: #fff;
+}
+
+a.sign-in {
+    font: 500 16px/22px 'Avenir-Medium',sans-serif;
+    color: #b699ff;
+    margin-right: 30px;
+}
+
+a.request-demo {
+    height: 50px;
+    border-radius: 5px;
+    background-color: #b699ff;
+    padding: 14px 25px;
+    font: 300 16px/22px 'Avenir-Light',sans-serif;
+    color: #ffffff;
+}
+
+.reports {
+    margin-top: 30px;
+}
+
+.new-lp .reports .number {
+    border-right: 1px solid #E5E5E5;
+}
+
+.new-lp .reports .number:last-child {
+    border-right: none;
+}
+
+.new-lp .reports .number .desc {
+    opacity: 0.5;
+    font: 300 19px/26px 'Avenir-Light',sans-serif;
+    color: #000000;
+    letter-spacing: 0.06px;
+}
+
+.new-lp .reports .number span {
+    font: 300 40px/55px 'Avenir-Light',sans-serif;
+    color: #000000;
+}
+
+.new-lp header {
+    position: relative;
+    padding-top: 45px;
+}
+
+.new-lp .main-section h1 {
+    font: 300 83px/103px 'Avenir-Light',sans-serif;
+    letter-spacing: -0.9px;
+    color: #000000;
+    margin: 0 0 30px;
+}
+
+.new-lp header .header-action {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.new-lp .mobile-nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 999;
+    min-height: 100vh;
+    width: 280px;
+    background-color: #b699ff;
+    text-align: center;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new-lp .main-section {
+    position: relative;
+    padding-top: 195px;
+    margin-top: -95px;
+    background: url(img/svgtotal.svg) center no-repeat;
+    background-size: cover;
+    background-position: top 0 left 0;
+    min-height: 100vh;
+}
+
+.new-lp .main-section img.right-img {
+    position: absolute;
+    top: 195px;
+    right: 0;
+    z-index: 2;
+    max-width: 43%;
+}
+
+.new-lp .main-section p {
+    opacity: 0.5;
+    font: 300 19px/26px 'Avenir-Light',sans-serif;
+    letter-spacing: 0.1px;
+    color: #000000;
+    margin: 0 0 40px;
+}
+
+.new-lp .main-section .partners-title {
+    margin: 400px 0 60px;
+    font: 300 35px/48px 'Avenir-Light',sans-serif;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.new-lp .main-section .n-partners {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 109px;
+}
+
+
+.new-lp .test-your-app .display-bugs .left-bug .bug-con {
+    width: 72px;
+    height: 72px;
+    background-image: linear-gradient(308deg, rgba(255,255,255,0.61), rgba(255,255,255,0)),linear-gradient(to bottom, #f1c33f, #f1c33f);
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    padding: 20px;
+    margin-bottom: 20px;
+}
