@@ -61,7 +61,7 @@ $url_1: url(img/features-bg.svg);
 			margin: 0 0 40px;
 		}
 		.partners-title {
-			margin: 400px 0 60px;
+			margin: 180px 0 60px;
 			font: 300 35px/48px $font_0, $font_1;
 			letter-spacing: -0.4px;
 			text-align: center;
@@ -71,6 +71,10 @@ $url_1: url(img/features-bg.svg);
 			display: flex;
 			justify-content: space-between;
 			margin-bottom: 109px;
+            flex-wrap: wrap;
+            img {
+                margin: 10px;
+            }
 		}
 		img.right-img {
 			position: absolute;
@@ -78,6 +82,7 @@ $url_1: url(img/features-bg.svg);
 			right: 0;
 			z-index: 2;
 			max-width: 43%;
+            //display: none;
 		}
 	}
 	.mobile-nav {
@@ -196,11 +201,10 @@ $url_1: url(img/features-bg.svg);
 			margin-bottom: 30px;
 		}
 		.app-stores {
-			display: flex;
-			align-items: center;
 			a {
 				display: flex;
 				align-items: center;
+                margin-bottom: 17px;
 			}
 			.playmarket {
 				.icon-con {
@@ -227,7 +231,6 @@ $url_1: url(img/features-bg.svg);
 				}
 			}
 			.appstore {
-				margin-left: 60px;
 				.icon-con {
 					width: 60px;
 					height: 60px;
@@ -283,6 +286,7 @@ $url_1: url(img/features-bg.svg);
 			position: relative;
 			display: flex;
 			flex-direction: column;
+            margin-bottom: 15px;
 			p {
 				font: 300 17px/23px $font_0, $font_1;
 				letter-spacing: 0.1px;
@@ -330,7 +334,8 @@ $url_1: url(img/features-bg.svg);
 		}
 		.footer-lists {
 			display: flex;
-			justify-content: space-evenly;
+			justify-content: space-between;
+            margin: 20px 0; 
 			h6 {
 				@extend %extend_1;
 			}
@@ -353,7 +358,6 @@ $url_1: url(img/features-bg.svg);
 		}
 	}
 	.reports .number {
-		border-right: 1px solid $mercury;
 		&:last-child {
 			border-right: none;
 		}
@@ -373,4 +377,40 @@ $url_1: url(img/features-bg.svg);
 	background-image: $url_1;
 	padding: 67px 0 300px;
 	background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .new-lp {
+        .reports {
+            .number {
+                border-right: 1px solid $mercury;
+            }
+        }
+        .divider {
+            .footer-lists {
+                justify-content: space-evenly;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .new-lp {
+        .main-section {
+            .partners-title {
+                margin: 400px 0 60px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .new-lp {
+        .easy-to-use {
+            .app-stores a {
+                margin-top: 0;
+            }
+        }
+    }
 }
