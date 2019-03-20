@@ -64,6 +64,7 @@ a.request-demo {
     letter-spacing: -0.9px;
     color: #000000;
     margin: 0 0 30px;
+    text-align: left;
 }
 
 .new-lp header .header-action {
@@ -359,6 +360,14 @@ a.request-demo {
 .new-lp .great-company .n-item .n-author {
     margin-top: auto;
     display: flex;
+    align-items: center;
+}
+
+.new-lp .great-company .n-item .n-author .n-author-image {
+    margin-right: 17px;
+    max-width: 64px;
+    max-height: 64px;
+    border-radius: 50%;
 }
 
 .new-lp .great-company .get-started {
@@ -398,7 +407,7 @@ a.request-demo {
     justify-content: space-evenly;
 }
 
-.new-lp .divider .footer-lists h6 {
+.new-lp .divider .footer-lists h6, .new-lp .divider .n-soc h6 {
     font: 500 16px/22px 'Avenir-Medium',sans-serif;
     letter-spacing: 0.1px;
     color: #000000;
@@ -411,4 +420,9 @@ a.request-demo {
     font: 300 16px/24px 'Avenir-Light',sans-serif;
     letter-spacing: 0.1px;
     color: #000000;
+}
+
+.new-lp .divider .n-soc a {
+    margin-top: 10px;
+    margin-right: 15px;
 }

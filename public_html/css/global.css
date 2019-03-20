@@ -1,4 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:400,500%7CRaleway:300,400,500,600,700";
+@import "../application.css";
+
 body {
     color: #4c5462;
     font-family: "Raleway", sans-serif;
